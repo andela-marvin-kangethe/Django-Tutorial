@@ -20,3 +20,8 @@ e.g 'polls.apps.PollsConfig'
 then do migrations. e.g python manage.py migrate
 
 
+#Templates
+
+The render() function takes the request object as its first argument, a template name as its second argument and a dictionary as its optional third argument
+
+
