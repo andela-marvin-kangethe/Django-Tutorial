@@ -11,3 +11,12 @@ django-admin startproject <project-site-name>
 python manage.py startapp polls {Must be in the same directory as the manage.py}
 
 
+#To include a created app in the project, include the app.py class in settings.py INSTALLED APPS
+
+e.g 'polls.apps.PollsConfig'	
+
+#To create database, create models in the models.py of the app
+
+then do migrations. e.g python manage.py migrate
+
+
