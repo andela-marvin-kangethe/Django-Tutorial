@@ -1,0 +1,8 @@
+<!-- <p>Question of the day '{{ current_question.question }}'</p>
+ -->
+
+<h1>{{ current_question.question }}</h1>
+	<ul>
+		{% for choice in current_question.choice_set.all %}
+			<li>{{ choice.choice }}</li> {% endfor %}
+	</ul>
